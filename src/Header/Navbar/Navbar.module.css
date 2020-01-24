@@ -1,0 +1,12 @@
+.Navbar {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.Link {
+    flex: 1;
+    font-size: 2rem;
+    color: white;
+    padding: 10px 0;
+}

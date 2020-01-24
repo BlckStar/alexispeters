@@ -1,0 +1,27 @@
+.Header {
+    max-width: 100%;
+    width: 100vw;
+    height: 100vh;
+    background: center;
+    background-size: cover;
+    background-image: url(consulting.jpg);
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.Headline {
+    background-color: rgba(4, 104, 4, 0.7);
+    width: auto;
+    color: white;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.Name {
+    font-size: 3rem;
+}
+
+.Slogan {
+    font-size: 2rem;
+}
