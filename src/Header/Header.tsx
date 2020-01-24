@@ -1,7 +1,7 @@
 import React from 'react';
 
 import  style from './Header.module.css';
-import Navbar from '../Navbar/Navbar';
+import Navbar from './Navbar/Navbar';
 
 interface HeaderProps {
     pages: Page[]

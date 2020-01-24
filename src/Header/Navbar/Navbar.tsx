@@ -9,7 +9,7 @@ interface Props {
 const Navbar  = (props: Props) => {
     return <div className={styles.Navbar}>
         {props.pages.map((page: Page) =>  {
-            return <div className={styles.Link}>
+            return <div key={page.name} className={styles.Link}>
                 {page.name}
             </div>
         })}
