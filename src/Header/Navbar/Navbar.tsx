@@ -10,7 +10,7 @@ const Navbar  = (props: Props) => {
     return <div className={styles.Navbar}>
         {props.pages.map((page: Page) =>  {
             return <div key={page.name} className={styles.Link}>
-                {page.name}
+                <a className={styles.LinkAnchor} href={'#' + page.name}>{page.name}</a>
             </div>
         })}
     </div>

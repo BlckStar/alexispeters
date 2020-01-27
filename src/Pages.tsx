@@ -1,10 +1,21 @@
 
 const Pages : Page[] = [
     {
-        name: 'About me'
+        name: 'Consultant',
+        paragraphs: [
+            {text: 'foobar'},
+            {text: 'foobaz'}
+        ]
     },
     {
-        name: 'Imprint'
+        name: 'Software Engineer',
+        paragraphs: [
+            {text: 'bbbb'},
+            {text: 'aaaa'}
+        ]
+    },
+    {
+        name: 'Scrum Master'
     },
 ];
 

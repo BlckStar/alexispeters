@@ -1,3 +1,4 @@
 declare interface Page {
-    name: string
+    name: string,
+    paragraphs?: Paragraph[]
 }
