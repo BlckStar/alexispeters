@@ -1,3 +1,4 @@
 declare interface Paragraph {
-    text: string
+    text: string,
+    html?: string 
 }

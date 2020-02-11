@@ -14,9 +14,38 @@
 .LinkAnchor {
     color: white;
     text-decoration: none;
+    transition: text-shadow linear 0.3s ;
+}
+
+.Caret::after {
+    content: '∨';
+    font-size: 1.3rem;
+    display: block;
 }
 
 .LinkAnchor:hover {
-    color: blue;
-    text-shadow: 1px white;
+    text-shadow: 0 0 8px white;
 }
+
+@media (max-width: 810px) {
+    .Navbar {
+        flex-direction: column;
+    }
+
+    .Link {
+        background-color: rgba(255,255,255,0.3);
+        width: 100%;
+        border-bottom: 1px solid white;
+    }
+
+    .Link:last-child {
+        border: none;
+    }
+
+    .Caret::after {
+        content: '>';
+        display: inline-block;
+        font-size: 2rem;
+        margin-left: 15px;
+    }
+} 
