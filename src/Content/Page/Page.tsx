@@ -23,7 +23,7 @@ const ContentPage = (props: Props) => {
     return <div id={page.id} className={style.Page}>
     <div className={style.ContentImageWrapper}> 
         {page.images.map((pageImage: string) => {
-            return <img key={pageImage} src={pageImage} className={style.ContentImage}></img>;
+            return <img key={pageImage} src={pageImage} className={style.ContentImage} alt=""></img>;
         })}
         <h2>{page.name}</h2>
     </div>

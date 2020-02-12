@@ -27,3 +27,15 @@
 .Content {
     padding: 10px 10%;
 }
+
+
+@media (max-width: 810px) {
+    .ContentImageWrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .ContentImageWrapper * {
+        margin-top: 10px;
+    }
+}
