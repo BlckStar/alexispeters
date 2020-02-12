@@ -5,11 +5,18 @@
 .ContentImageWrapper {
     width: 100%;
     padding: 20px 40px;
-    background-color: rgba(4, 104, 4);
+    background-color: rgb(4, 104, 4);
     box-sizing: border-box;
     display: flex;
     justify-content: space-evenly;
     color: white;
+}
+
+.ContentImageWrapper * {
+    margin: auto 0 auto 13px;
+}
+.ContentImageWrapper *:first-child {
+    margin: initial;
 }
 
 .ContentImage{
