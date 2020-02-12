@@ -7,18 +7,20 @@ interface HeaderProps {
     pages: Page[]
 }
 const Header = (props: HeaderProps) => {
-    return <div className={style.Header}>
+    return <div className={style.Wrapper}>
+        <div className={style.Header}>
 
-        <div className={style.Headline}>
-            <p className={style.Name}>
-                Alexis Peters
-            </p>
-            <p className={style.Slogan}>
-                Sometimes Easy is Easier
-            </p>
+            <div className={style.Headline}>
+                <p className={style.Name}>
+                    Alexis Peters
+                </p>
+                <p className={style.Slogan}>
+                    Sometimes Easy is Easier
+                </p>
+            </div>
+
+            <Navbar pages={props.pages}/>
         </div>
-
-        <Navbar pages={props.pages}/>
     </div>
 }
 
