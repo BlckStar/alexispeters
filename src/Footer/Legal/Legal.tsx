@@ -31,7 +31,7 @@ const Legal = () => {
         <div onClick={() => {
             setModalState({
                 open: true,
-                text: <Imprint />,
+                text: <Imprint className={styles.LegalModal}/>,
                 title: 'Imprint'
             });
         }}>
@@ -40,7 +40,7 @@ const Legal = () => {
         <div onClick={() => {
             setModalState({
                 open: true,
-                text: <Privacy />,
+                text: <Privacy className={styles.LegalModal}/>,
                 title: 'Privacy'
             })
         }}>

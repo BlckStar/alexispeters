@@ -6,3 +6,7 @@
     color: white;
     text-decoration: underline;
 }
+
+.LegalModal h1, .LegalModal h2, .LegalModal h3 {
+  font-size: inherit;
+}

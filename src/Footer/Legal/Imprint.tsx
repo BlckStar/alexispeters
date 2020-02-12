@@ -1,17 +1,20 @@
 import React from 'react';
 
-const Imprint = () => {
-    return <div>
+interface Props {
+    className: string
+}
+const Imprint = (props: Props) => {
+    return <div className={props.className}>
         <h1>Imprint</h1>
         <h2>Information according to § 5 TMG</h2>
         <p><b>Alexis Peters</b> <br />
-        Alexis Peters<br />
-        Bebelstr. 3<br />
-        21614 Buxtehude
+            Alexis Peters<br />
+            Bebelstr. 3<br />
+            21614 Buxtehude
         </p>
         <h3>Contact</h3>
         <p>phone: +49 1515 6965164 <br />
-        e-mail: info@alexispeters.de
+            e-mail: info@alexispeters.de
         </p>
         <h2>    Consumer dispute resolution/Universal Arbitration Board    </h2>
         <p>We are not willing or obliged to participate in dispute resolution proceedings before a
@@ -40,7 +43,7 @@ const Imprint = () => {
         remove it immediately.
         </p>
         <h2>
-        Copyright</h2>
+            Copyright</h2>
         <p>
             The contents and works on these pages created by the site operators are subject to the German
         Copyright law. The duplication, processing, distribution and any kind of utilization outside the
@@ -51,6 +54,7 @@ const Imprint = () => {
         copyright infringement become attentive, we ask for an appropriate reference. At
         If we become aware of any infringements, we will remove such contents immediately.
         </p>
+        <p>source: erecht24.de</p>
     </div>
 }
 
