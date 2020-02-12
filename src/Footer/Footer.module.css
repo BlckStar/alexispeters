@@ -1,0 +1,32 @@
+.Footer {
+    padding-top: 20px;
+    background-color: rgb(4, 104, 4);
+}
+
+.FooterContent {
+    display: flex;
+    padding: 0 20px;
+}
+
+.Contact {
+    color: white;
+    flex: 1;
+}
+
+.SocialMedia {
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.SocialMedia a {
+    flex: 1 0 auto;
+}
+.SocialMedia img {
+    max-width: 100%;
+    height: 32px;
+    padding: 0 10px;
+}
