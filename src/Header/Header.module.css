@@ -39,5 +39,6 @@
 @media (max-width: 810px) {
     .Header {
         height: calc(100vh - 56px);
+        background-image: url(consulting.mini.jpg);
     }
 }
